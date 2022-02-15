@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "data",
+						"type": "string"
+					}
+				],
+				"name": "sayHello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/HelloWorldContract.sol": "HelloWorldContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/HelloWorldContract.sol": {
+			"keccak256": "0x3012d55a8d00d6b7acf57a09f36f22ae7e6a14718da2eadbc25f15f7ac90b9fa",
+			"urls": [
+				"bzz-raw://bb4c559a859fb820c825fee4bce66f34d3ad1e7e83da724b8f5de37aac1ac3df",
+				"dweb:/ipfs/Qmbs5XENa1gCkgHU7hWN6RDTPWw1MbbLtGtpohFhx8tViQ"
+			]
+		}
+	},
+	"version": 1
+}
